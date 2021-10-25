@@ -9,6 +9,11 @@ namespace DotNetCraft.NeuralNetwork.Domain.WeightBuilders
 
         #region Implementation of IWeightBuilder
 
+        public double BuildWeight()
+        {
+            return _random.NextDouble();
+        }
+
         public double[] BuildWeights(int count)
         {
             var result = new double[count];

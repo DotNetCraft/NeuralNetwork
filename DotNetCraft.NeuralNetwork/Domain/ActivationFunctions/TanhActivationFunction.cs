@@ -3,20 +3,20 @@ using DotNetCraft.NeuralNetwork.Core;
 
 namespace DotNetCraft.NeuralNetwork.Domain.ActivationFunctions
 {
-    public class SigmoidActivationFunction: IActivationFunction
+    public class TanhActivationFunction : IActivationFunction
     {
         #region Implementation of IActivationFunction
 
         public double Calculate(double x)
         {
-            var result = 1 + Math.Exp(-x);
-            result = 1 / result;
+            var temp = Math.Exp(2 * x);
+            var result = (temp - 1) / (temp + 1);
             return result;
         }
 
         public double CalculatePrime(double x)
         {
-            var result = (1 - x) * x;
+            var result = 1 - x * x;
             return result;
         }
 

@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCraft.NeuralNetwork", "DotNetCraft.NeuralNetwork\DotNetCraft.NeuralNetwork.csproj", "{E053F689-CC75-47C1-9CAA-EE5C2D7B8372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCraft.NeuralNetwork", "DotNetCraft.NeuralNetwork\DotNetCraft.NeuralNetwork.csproj", "{E053F689-CC75-47C1-9CAA-EE5C2D7B8372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCraft.NeuralNetwork.Tests", "DotNetCraft.NeuralNetwork.Tests\DotNetCraft.NeuralNetwork.Tests.csproj", "{7F59C53F-C7DA-44F7-A886-FCA3A90D6BF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCraft.NeuralNetwork.Tests", "DotNetCraft.NeuralNetwork.Tests\DotNetCraft.NeuralNetwork.Tests.csproj", "{7F59C53F-C7DA-44F7-A886-FCA3A90D6BF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCraft.NeuralNetwork.Console", "DotNetCraft.NeuralNetwork.Console\DotNetCraft.NeuralNetwork.Console.csproj", "{04A89528-9673-477C-9E15-C4F756F2735D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ML", "ML", "{A0724C32-F920-4D22-8489-A1E6F8F3FF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLComporasion", "MLComporasion\MLComporasion.csproj", "{064C5857-78DB-4304-8013-370826050436}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLModel1_ConsoleApp1", "MLModel1_ConsoleApp1\MLModel1_ConsoleApp1.csproj", "{9808A39F-D337-4A98-9E28-0E1B467B3464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +29,24 @@ Global
 		{7F59C53F-C7DA-44F7-A886-FCA3A90D6BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F59C53F-C7DA-44F7-A886-FCA3A90D6BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F59C53F-C7DA-44F7-A886-FCA3A90D6BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A89528-9673-477C-9E15-C4F756F2735D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A89528-9673-477C-9E15-C4F756F2735D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A89528-9673-477C-9E15-C4F756F2735D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A89528-9673-477C-9E15-C4F756F2735D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064C5857-78DB-4304-8013-370826050436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064C5857-78DB-4304-8013-370826050436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064C5857-78DB-4304-8013-370826050436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064C5857-78DB-4304-8013-370826050436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9808A39F-D337-4A98-9E28-0E1B467B3464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9808A39F-D337-4A98-9E28-0E1B467B3464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9808A39F-D337-4A98-9E28-0E1B467B3464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9808A39F-D337-4A98-9E28-0E1B467B3464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{064C5857-78DB-4304-8013-370826050436} = {A0724C32-F920-4D22-8489-A1E6F8F3FF09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F55E0463-900D-4594-A190-A77E7021E1FA}

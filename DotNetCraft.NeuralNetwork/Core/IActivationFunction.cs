@@ -9,5 +9,6 @@ namespace DotNetCraft.NeuralNetwork.Core
     public interface IActivationFunction
     {
         double Calculate(double x);
+        double CalculatePrime(double x);
     }
 }
